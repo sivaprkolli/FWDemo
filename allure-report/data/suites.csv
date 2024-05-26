@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri May 24 08:52:23 IST 2024","Fri May 24 08:52:23 IST 2024","1","smoke","login","com.sip.Tests.LoginTests","com.sip.Tests.LoginTests","verifyUserEdited","verifyUserEdited",""
-"failed","Fri May 24 08:52:16 IST 2024","Fri May 24 08:52:22 IST 2024","5927","smoke","login","com.sip.Tests.LoginTests","com.sip.Tests.LoginTests","verifySuccessfulLogin","verifySuccessfulLogin",""
-"passed","Fri May 24 08:52:23 IST 2024","Fri May 24 08:52:23 IST 2024","1","smoke","login","com.sip.Tests.LoginTests","com.sip.Tests.LoginTests","verifyUserCreated","verifyUserCreated",""
