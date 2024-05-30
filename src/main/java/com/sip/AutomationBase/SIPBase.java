@@ -52,8 +52,8 @@ public class SIPBase {
         chromeOptions.addArguments("--disable-notifications");
         chromeOptions.setExperimentalOption("excludeSwitches",  Collections.singletonList("disable-popup-blocking"));
         chromeOptions.merge(capabilities);
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
-        //driver = new ChromeDriver(chromeOptions);
+        //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
+        driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
